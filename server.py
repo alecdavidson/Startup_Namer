@@ -1,4 +1,4 @@
-import flask, flask.views, os, main
+import flask, flask.views, os, Main
 
 app = flask.Flask(__name__)
 
