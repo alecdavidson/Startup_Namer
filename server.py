@@ -1,4 +1,3 @@
-##Alec Davidson - Summer 2014
 import flask, flask.views, os, main
 
 app = flask.Flask(__name__)
