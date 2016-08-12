@@ -9,7 +9,7 @@ class View(flask.views.MethodView):
     return flask.render_template('index.html')
   
   def post(self):
-    main.main()
+    Main.main()
     return self.get()
   
 app.add_url_rule('/', view_func=View.as_view('main'), methods=['GET','POST'])
